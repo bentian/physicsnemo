@@ -18,9 +18,9 @@
 hp:
     training_duration: 200000000
     # Training duration based on the number of processed samples
-    total_batch_size: 256
+    total_batch_size: 128
     # Total batch size
-    batch_size_per_gpu: "auto"
+    batch_size_per_gpu: 8 # "auto"
     # Batch size per GPU
     lr: 0.0002
     # Learning rate

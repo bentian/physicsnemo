@@ -28,7 +28,7 @@ img_shape_y: 448
 # Add grid coordinates to the image
 add_grid: true
 # Factor to downscale the image
-ds_factor: 4
+ds_factor: 1
 # Path to min and max values of the data
 min_path: null
 max_path: null
